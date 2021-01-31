@@ -1,0 +1,57 @@
+Arguments: 
+  F:\nodejs\node.exe F:\fileProgramer\yarn\bin\yarn.js add react-navegation
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Intel Education\Application Support;C:\Program Files (x86)\Security Innovation\TSS\bin\;C:\Program Files (x86)\Windows Live\Shared;F:\nodejs\;F:\fileProgramer\yarn\bin\;C:\Users\alumno\AppData\Local\GitHubDesktop\bin;C:\Users\alumno\AppData\Roaming\npm;C:\Users\alumno\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-navegation: Not found
+      at Request.params.callback [as _callback] (F:\fileProgramer\yarn\lib\cli.js:66035:18)
+      at Request.self.callback (F:\fileProgramer\yarn\lib\cli.js:140564:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (F:\fileProgramer\yarn\lib\cli.js:141536:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (F:\fileProgramer\yarn\lib\cli.js:141458:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^35.0.0",
+      "native-base": "^2.13.8",
+      "react": "16.8.3",
+      "react-dom": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+      "react-native-web": "^0.11.7"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^7.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
